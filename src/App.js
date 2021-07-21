@@ -5,13 +5,23 @@ import Button from "./components/Button";
 function App() {
   const [counter, setCounter] = useState(0);
 
+  const counterUp = () => {
+    setCounter(counter + 1);
+  };
+  const counterDown = () => {
+    setCounter(counter - 1);
+  };
+  const counterReset = () => {
+    setCounter(0);
+  };
   return (
     <div className="App">
-      <span>
-        <i class="fas fa-calculator"></i>
-      </span>
+      <header></header>
+
+      <Button handleClick={counterUp} sign={"+"} design={"class-one"} />
       <p>{counter}</p>
-      <Button counter={counter} setCounter={setCounter} />
+      <Button handleClick={counterDown} sign={"-"} design={"class-two"} />
+      <Button handleClick={counterReset} sign={"reset"} />
     </div>
   );
 }

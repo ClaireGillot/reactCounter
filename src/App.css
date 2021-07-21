@@ -1,27 +1,9 @@
 /* Other rules */
 
-p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.class-one {
+  color: blue;
 }
 
-.span {
-}
-.counterMore {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.counterLess {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.counterReset {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.class-two {
+  color: red;
 }

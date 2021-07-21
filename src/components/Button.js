@@ -1,32 +1,8 @@
 const Button = (props) => {
   return (
     <div>
-      <div className="counterMore">
-        <button
-          onClick={() => {
-            props.setCounter(props.counter + 1);
-          }}
-        >
-          +
-        </button>
-      </div>
-      <div className="counterLess">
-        <button
-          onClick={() => {
-            props.setCounter(props.counter - 1);
-          }}
-        >
-          -
-        </button>
-      </div>
-      <div className="counterReset">
-        <button
-          onClick={() => {
-            props.setCounter(0);
-          }}
-        >
-          reset
-        </button>
+      <div className={props.design}>
+        <button onClick={props.handleClick}>{props.sign}</button>
       </div>
     </div>
   );
