@@ -1,1 +1,30 @@
 /* Other rules */
+
+.header {
+  width: 1920px;
+  top: 193px;
+  border: 1px solid #e5e5e5;
+}
+
+.p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counterMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counterLess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counterReset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
