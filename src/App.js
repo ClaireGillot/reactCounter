@@ -6,7 +6,10 @@ function App() {
   const [counter, setCounter] = useState(0);
 
   return (
-    <div>
+    <div className="App">
+      <span>
+        <i class="fas fa-calculator"></i>
+      </span>
       <p>{counter}</p>
       <Button counter={counter} setCounter={setCounter} />
     </div>

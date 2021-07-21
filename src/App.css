@@ -1,15 +1,12 @@
 /* Other rules */
 
-.header {
-  width: 1920px;
-  top: 193px;
-  border: 1px solid #e5e5e5;
-}
-
-.p {
+p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.span {
 }
 .counterMore {
   display: flex;
