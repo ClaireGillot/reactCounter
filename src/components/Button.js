@@ -1,8 +1,10 @@
 const Button = (props) => {
   return (
     <div>
-      <div className={props.design}>
-        <button onClick={props.handleClick}>{props.sign}</button>
+      <div>
+        <button onClick={props.handleClick} className={props.design}>
+          {props.sign}
+        </button>
       </div>
     </div>
   );
